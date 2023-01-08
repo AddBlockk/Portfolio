@@ -1,9 +1,13 @@
 @import url('https://fonts.cdnfonts.com/css/gilroy-bold');
 body {
     max-width: 935px;
+
     margin: 0 auto;
     justify-content: center;
     font-family: Gilroy-Bold;
+}
+body img{
+    max-width: 100%;
 }
 .header {
     display: flex;
@@ -11,6 +15,9 @@ body {
     padding: 32px 0 32px 0;
     font-size: 18px;
     font-family: Gilroy-Bold;
+    flex-wrap: wrap;
+    max-width: 935px;
+
 }
 .header a {
     color:#828282;;
@@ -26,6 +33,7 @@ hr {
     margin: 40px 0 40px 0;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .name {
     margin: 0;
@@ -59,6 +67,7 @@ a:hover {
 }
 .my_photo {
     margin: 0 0 105px 0 ;
+    display: flex;
 }
 .me {
     background: #F6F6F6;
@@ -109,9 +118,10 @@ a:hover {
 
 .programs {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     color: #828282;
-    margin: 0 0 110px 0;
+    margin: 0 0 70px 0;
 }
 .programs p{
     margin: 24px 0 40px 0;
@@ -125,6 +135,9 @@ a:hover {
 .nick_photoshop {
     display: flex;
     justify-content: center;
+}
+.icon_star_photoshop {
+    margin: 0 0 40px 0;
 }
 .icon_AI {
     display: flex;
@@ -248,9 +261,10 @@ a:hover {
 
 .icon_button {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     color: #828282;
-    width: 400px;
+    max-width: 400px;
     margin: 0 auto;
 }
 
