@@ -1,0 +1,320 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+body {
+    max-width: 935px;
+    margin: 0 auto;
+    justify-content: center;
+    font-family: Gilroy-Bold;
+}
+body img{
+    max-width: 100%;
+}
+.header {
+    max-width: 935px;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0 32px 0;
+    font-size: 18px;
+    font-family: Gilroy-Bold;
+    flex-wrap: wrap;
+    max-width: 935px;
+    border-bottom: 1px solid #828282;
+
+}
+.header a {
+    color:#828282;
+}
+.header a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+.header_nickname {
+    margin: 40px 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    display: inline-block;
+    font-size: 47px;
+}
+.basic_information {
+    margin: 55px 0 0 0;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+}
+.website_translation{
+    align-items:end;
+    display: inline-flex;
+    font-size: 16px;
+    transform: rotate(-90deg);
+    flex-basis:10%;
+
+
+}
+.website_translation a{
+    color:#828282;
+}
+.website_translation a:hover {
+    color: black;
+    transition: 0.5s;
+}
+.rus {
+    border-right: #070707 2px solid;
+    margin-right:5px;
+    height: 17px;
+    padding-right: 5px;
+}
+
+.eng {
+    width: 15px;
+    height: 17px;
+}
+
+
+.my_photo {
+    margin: 0 0 105px 0 ;
+    display: flex;
+}
+.me {
+    background: #F6F6F6;
+    justify-content: center;
+    align-content: center;
+    height: 506px;
+    font-family: 'Gilroy-Medium';
+
+
+}
+.header_me{
+    font-size: 34px;
+    display:flex;
+    justify-content:center;
+    padding: 120px 0 17px 0;
+    color: #070707;
+    font-family: Gilroy-Bold;
+
+
+}
+.about_me{
+    display: flex;
+    justify-content: center;
+
+}
+.about_me p{
+    max-width: 480px;
+    margin: 0 auto;
+    max-height: 100px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.all_abilities h1 {
+    font-size: 34px;
+    font-family: Gilroy-Bold;
+    display: flex;
+    justify-content: center;
+    margin: 90px 0 0 0;
+}
+.work {
+    margin: 69px 0 83px 0;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-family: 'Gilroy-Medium';
+}
+
+.programs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #828282;
+    margin: 0 0 70px 0;
+}
+.programs p{
+    margin: 24px 0 40px 0;
+    width: 90px;
+    text-align: center;
+}
+.icon_photoshop {
+    display: flex;
+    justify-content: center;
+}
+.nick_photoshop {
+    display: flex;
+    justify-content: center;
+}
+.icon_star_photoshop {
+    margin: 0 0 40px 0;
+}
+.icon_AI {
+    display: flex;
+    justify-content: center;
+}
+
+.nick_AI {
+    display: flex;
+    justify-content: center;
+}
+.icon_star_AI {
+    display: flex;
+    justify-content: center;
+}
+
+.icon_AE {
+    display: flex;
+    justify-content: center;
+
+}
+.icon_star_AE {
+    display: flex;
+    justify-content: center;
+}
+.nick_AE {
+    display: flex;
+    justify-content: center;
+}
+
+
+.icon_figma {
+    display: flex;
+    justify-content: center;
+}
+.nick_Figma {
+    display: flex;
+    justify-content: center;
+    height: 92px;
+}
+.icon_star_Figma {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio h1{
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+    padding: 113px 0 47px 0;
+}
+.portfolio {
+    background: #F6F6F6;
+}
+.portfolio_picture {
+    padding: 0 0 45px 0;
+}
+.link_on_store_t-shirt {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    text-decoration:underline;
+    height: 100%;
+    padding: 0 0 80px 0;
+
+}
+.link_on_store_t-shirt a{
+    color:black;
+    font-family: 'Gilroy-Medium';
+
+}
+.Reebok_picture {
+    padding: 0 0 45px 0;
+}
+.link_on_store_Reebok {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    text-decoration:underline;
+    padding: 0 0 80px 0;
+}
+.link_on_store_Reebok a{
+    color:black;
+    font-family: 'Gilroy-Medium';
+
+}
+
+.Camera_picture {
+    padding: 0 0 45px 0;
+}
+
+.link_on_store_Camera {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    text-decoration:underline;
+    padding: 0 0 80px 0;
+}
+
+.link_on_store_Camera a{
+    color:black;
+    font-family: 'Gilroy-Medium';
+}
+
+.contacts h1{
+    font-size: 34px;
+    font-family: Gilroy-Bold;
+    display: flex;
+    justify-content: center;
+    margin: 114px 0 20px 0;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+.button_border {
+    display: flex;
+    align-items: center;
+    height: 42px;
+    width: 180px;
+    background-color: #070707;
+    border-radius: 20px;
+    box-shadow: 0 0 5px black;
+    margin-top: 20px;
+    margin-bottom: 85px;
+
+
+
+}
+.contacts p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    max-width: 260px;
+    margin: 0 auto;
+    font-family: 'Gilroy-Medium';
+}
+
+
+.button a{
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+.button a:hover{
+    justify-content: center;
+    display: flex;
+    color: #070707;
+    transition: 1s;
+}
+.button_border:hover {
+    background-color: white;
+}
+
+.icon_button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #828282;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.End {
+    font-size: 14px;
+    color: #828282;
+    margin: 45px 0 0 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Gilroy-Medium';
+    text-align: center;
+    height: 100px;
+}
